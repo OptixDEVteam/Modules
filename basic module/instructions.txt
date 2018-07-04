@@ -1,0 +1,36 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf810
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8840\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Run b_helper.py to install module\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\qc\partightenfactor0
+
+\fs28 \cf0 Commands From This Module:\
+
+\fs10  \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs24 \cf0 b.delay(seconds)  -  Delays program for specified number of seconds\
+\
+b.space(repeats)  -  prints a specified number of spaces\
+\
+b.pickleEx(filename, message)  -  simplifies pickle export for beginners can export any object\
+\
+b.export(filename, message)  -  simplifies export can only export strings\
+\
+b.pickleOp(filename)  -  simplifies opening pickle file\
+\
+b.open_(filename)  -  simplifies opening file\
+\
+b.random(min, max)  -  generates a random number\
+\
+b.path()  -  returns path of current file\
+\
+b.directory()  -  returns path of current directory\
+\
+b.move_file(startPoss, destination)  -  moves file to specified destination\
+}

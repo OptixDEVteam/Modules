@@ -1,0 +1,20 @@
+import inspect
+import os
+import shutil
+import time
+path = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+destination = "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/"
+# os.rename(path + "/b.py", )
+print("VERIFYING...")
+time.sleep(1)
+print("INSTALLING...")
+time.sleep(1)
+shutil.move(path + "/encrypt.py", destination)
+shutil.move(path + "/encrypt_resources", destination)
+print("INSTALLATION COMPLETE")
+print("")
+time.sleep(1)
+print("type import encrypt or import basic to begin")
+print("then type help(encrypt)")
+
+
